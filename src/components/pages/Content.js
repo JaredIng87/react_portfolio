@@ -15,8 +15,8 @@ export const PageContent = [
         content: "Here are my projects."
     },
     {
-        Page: "Contact",
-        header: "Contact Me",
+        page: "Contact",
+        header: "Contact",
         content: "Here's how you can contact me"
     },
     {

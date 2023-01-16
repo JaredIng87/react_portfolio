@@ -4,7 +4,7 @@ const pages = [
     {href: "home", pageName: "Home"},
     {href: "about", pageName: "About"},
     {href: "projects", pageName: "Projects"},
-    {href: "contacts", pageName: "Contacts"},
+    {href: "contact", pageName: "Contact"},
     {href: "resume", pageName: "Resume"}
 ];
 
