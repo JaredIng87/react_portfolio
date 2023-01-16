@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/NavTabs.css';
 
 const pages = [
     {href: "home", pageName: "Home"},
