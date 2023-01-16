@@ -1,13 +1,8 @@
 export const PageContent = [
     {
-        page: "Home",
-        header: "Home Page",
-        content: "Home page."
-    },
-    {
         page: "About",
-        header: "About Page",
-        content: "I am a coding student."
+        header: "Ingersoll",
+        content: "I am a coding student based in Trenton, NJ."
     },
     {
         page: "Projects",
@@ -16,12 +11,12 @@ export const PageContent = [
     },
     {
         page: "Contact",
-        header: "Contact",
-        content: "Here's how you can contact me"
+        header: "Contact Me",
+        content: "Email: jaredingersoll14@gmail.com   github: github.com/jaredi87 "
     },
     {
         page: "Resume",
         header: "Resume",
-        content: "A link to my resume."
+        content: "Resume link coming soon!"
     }
 ];

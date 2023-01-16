@@ -4,7 +4,7 @@ import { PageContent } from './pages/Content';
 import PageComponent from './pages/PageComponent';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
     const pageContent = PageContent.find(p => p.page === currentPage)

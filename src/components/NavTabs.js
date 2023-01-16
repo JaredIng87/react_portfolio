@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/NavTabs.css';
 
 const pages = [
-    {href: "home", pageName: "Home"},
     {href: "about", pageName: "About"},
     {href: "projects", pageName: "Projects"},
     {href: "contact", pageName: "Contact"},
