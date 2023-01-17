@@ -1,6 +1,9 @@
 .nav-tabs {
-    background: #001089;
-    height: 60px;
+    background: #4b4b4b;
+    width: auto; 
+    height: auto; 
+    margin: 0;
+    padding: 0;
   }
   
   .nav-tabs a {

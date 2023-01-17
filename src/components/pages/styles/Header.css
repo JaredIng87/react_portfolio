@@ -1,12 +1,12 @@
 .header {
-    background: #3363ff;
+    background-image: url(./images/brick.jpg);
     height: 200px;
   }
   
   .header h1 {
     margin: 0;
-    padding-top: 75px;
+    padding-top: 50px;
     text-align: center;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
   }
