@@ -2,17 +2,33 @@ export const PageContent = [
     {
         page: "About",
         header: "Ingersoll",
-        content: <p>I am a coding student based in Trenton, NJ.</p>
+        content: <p>My name is Jared Ingersoll, and I am a coding student based in Trenton, NJ. 
+            Here you will find various projects i have worked on, as well as contact information and a link to my resume. </p>
     },
     {
         page: "Projects",
         header: "Projects",
-        content: <p>Here are my projects.</p>
+        content: <div>
+        <figure>
+                <a href="https://sminker0401.github.io/Its-Raining-Tacos/" target="_blank" rel="noreferrer">
+                    <img src="./styles/images/tacos.png" alt="Its Raining Tacos"></img>
+                    </a>
+                <figcaption>It's Raining Tacos</figcaption>
+            </figure>
+        </div>
     },
     {
         page: "Contact",
         header: "Contact Me",
-        content: <p>Email: jaredingersoll14@gmail.com  <br></br>github: github.com/jaredi87</p>
+        content: <form>
+        <label for="name">Name:</label><br></br>
+        <input type="text" id="name" name="name" value="John Doe"></input><br></br>
+        <label for="email">E-mail:</label><br></br>
+        <input type="text" id="email" name="email" value="johndoe@email.com"></input><br></br>
+        <label for="Write your message here:">Name:</label><br></br>
+        <textarea type="text" id="message" name="message" value="Text"></textarea><br></br>
+        <button type="submit">Send</button>
+    </form>
     },
     {
         page: "Resume",
