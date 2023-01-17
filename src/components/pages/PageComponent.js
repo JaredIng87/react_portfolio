@@ -9,7 +9,7 @@ export default function PageComponent(props) {
       <h1>{props.header}</h1>
       </header>
       <section className="section">
-      <p>{props.content}</p>
+      {props.content}
       </section>
     </div>
   );
