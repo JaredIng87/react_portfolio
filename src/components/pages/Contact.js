@@ -1,9 +1,9 @@
 import React from 'react';
-import './styles/Section.css';
+import './styles/Contact.css';
 
 export default function Contact() {
     return (
-      <div className='section'>
+      <div className='contact'>
         <form>
         <label for="name">Name:</label><br></br>
         <input type="text" id="name" name="name" value="John Doe"></input><br></br>
