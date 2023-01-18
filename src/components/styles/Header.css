@@ -1,4 +1,4 @@
-.titleCard {
+.header {
   display: flex;
     flex-wrap: wrap;
     background: #3a3a3a;
@@ -20,7 +20,7 @@
     color: whitesmoke;
   }
 
-  .titleCard h1 {
+  .header h1 {
     color: white;
     text-align: center;
    font-size: 4rem;

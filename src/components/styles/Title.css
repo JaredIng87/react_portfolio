@@ -1,9 +1,9 @@
-.header {
+.title {
     background-image: url(./images/brick.jpg);
     height: 200px;
   }
   
-  .header h2 {
+  .title h2 {
     margin: 0;
     padding-top: 50px;
     text-align: center;
