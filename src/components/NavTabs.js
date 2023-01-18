@@ -2,10 +2,10 @@ import React from 'react';
 import '../styles/NavTabs.css';
 
 const pages = [
-    {href: "about", pageName: "About", header: "About Me"},
-    {href: "projects", pageName: "Projects", header: "Projects"},
-    {href: "contact", pageName: "Contact", header: "Contact Me"},
-    {href: "resume", pageName: "Resume", header: "Resume"}
+    {href: "about", pageName: "About"},
+    {href: "projects", pageName: "Projects"},
+    {href: "contact", pageName: "Contact"},
+    {href: "resume", pageName: "Resume"}
 ];
 
 function NavTabs({ currentPage, handlePageChange }) {
