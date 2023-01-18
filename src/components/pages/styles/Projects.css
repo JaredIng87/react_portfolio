@@ -12,6 +12,7 @@
   }
 
 .projects img {
+    content: url(./images/noteTaker.png);
     border-radius: 25px;
     margin-left: 5px;
     margin-top: 5px;
