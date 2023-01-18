@@ -1,26 +1,34 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
-import { PageContent } from './pages/Content';
-import PageComponent from './pages/PageComponent';
+import Header from './Header'
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
-    const pageContent = PageContent.find(p => p.page === currentPage)
-    return (
-    <PageComponent
-        header= {pageContent.header}
-        content= {pageContent.content}
-        />
-        );
-    };
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Projects') {
+      return <Projects />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    return <Resume />;
+  };
+
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header currentPage={currentPage}/>
       {renderPage()}
     </div>
   );

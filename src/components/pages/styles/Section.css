@@ -23,6 +23,8 @@
     border: 1px solid black;
     max-height: 150px; 
     object-fit: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
   }
 
   .section img:hover {
@@ -30,4 +32,6 @@
     margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 5px;
+    filter: none;
+    -webkit-filter: grayscale(0)
   }
