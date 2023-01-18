@@ -1,9 +1,9 @@
 import React from 'react';
-import './styles/Section.css';
+import './styles/Resume.css';
 
 export default function Projects() {
     return (
-        <div className='section'>
+        <div className='resume'>
       <p>View my resume <a href="https://jareding87.github.io/personal-portfolio/">Here!</a> <br></br>
         <ul>Proficiencies:
             <li>HTML</li>

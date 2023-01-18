@@ -2,12 +2,12 @@ import React from 'react';
 import './styles/Projects.css';
 
 const pages = [
-    {href: "https://sminker0401.github.io/Its-Raining-Tacos/", pageName: "It's Raining Tacos"},
-    {href: "https://salty-forest-89064.herokuapp.com/", pageName: "Note Taker"},
-    {href: "contact", pageName: "Contact"},
-    {href: "resume", pageName: "Resume"},
-    {href: "https://sminker0401.github.io/Its-Raining-Tacos/", pageName: "About"},
-    {href: "https://sminker0401.github.io/Its-Raining-Tacos/", pageName: "About"}
+    {href: "https://salty-forest-89064.herokuapp.com/", pageName: "Note Taker", src: "./styles/images/self.jpg"},
+    {href: "https://cryptic-basin-25762.herokuapp.com/", pageName: "Tech Blog", src: "./styles/images/self.jpg"},
+    {href: "https://jareding87.github.io/daily-planner/", pageName: "Daily Planner", src: "./styles/images/self.jpg"},
+    {href: "https://jareding87.github.io/personal-portfolio/", pageName: "HTML/CSS Portfolio", src: "./styles/images/self.jpg"},
+    {href: "https://sminker0401.github.io/Its-Raining-Tacos/", pageName: "It's Raining Tacos - group project", src: "./styles/images/self.jpg"},
+    {href: "https://coffee-cravers.herokuapp.com/", pageName: "Coffee Cravers - group project", src: "./styles/images/self.jpg"}
 ];
 
 export default function Projects() {
@@ -16,11 +16,11 @@ export default function Projects() {
             {pages.map(p => (
         <figure>
                 <a href={p.href} target="_blank" rel="noreferrer">
-                    <img src="./styles/images/tacos.png" alt={p.pageName}></img>
+                    <img src={p.src} alt={p.pageName}></img>
                     </a>
                     <figcaption>{p.pageName}</figcaption>
             </figure>
             ))}
         </div>
     );
-  }
+}

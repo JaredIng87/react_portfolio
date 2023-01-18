@@ -1,17 +1,22 @@
-.projects {
+.resume {
     background: #c4c4c4;
     padding: 20px;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
   }
 
-  .projects figure {
-    padding: 50px;
+  .resume ul {
+    padding: 20px;
+    list-style-position: inside;
+    font-size: 20px;
   }
 
-.projects img {
+  .resume li {
+    margin: 5px;
+    font-size: 15px;
+  }
+
+  .resume img {
+    content: url(./images/tacos.png);
     border-radius: 25px;
     margin-left: 5px;
     margin-top: 5px;
@@ -22,7 +27,7 @@
     -webkit-filter: grayscale(100%);
   }
 
-  .projects img:hover {
+  .resume img:hover {
     box-shadow: 5px 5px 5px rgb(69, 69, 69);
     margin-left: 0px;
     margin-top: 0px;
