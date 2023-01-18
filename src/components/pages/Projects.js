@@ -1,15 +1,26 @@
 import React from 'react';
-import './styles/Section.css';
+import './styles/Projects.css';
+
+const pages = [
+    {href: "https://sminker0401.github.io/Its-Raining-Tacos/", pageName: "It's Raining Tacos"},
+    {href: "https://salty-forest-89064.herokuapp.com/", pageName: "Note Taker"},
+    {href: "contact", pageName: "Contact"},
+    {href: "resume", pageName: "Resume"},
+    {href: "https://sminker0401.github.io/Its-Raining-Tacos/", pageName: "About"},
+    {href: "https://sminker0401.github.io/Its-Raining-Tacos/", pageName: "About"}
+];
 
 export default function Projects() {
     return (
-        <div className='section'>
+        <div className='projects'>
+            {pages.map(p => (
         <figure>
-                <a href="https://sminker0401.github.io/Its-Raining-Tacos/" target="_blank" rel="noreferrer">
-                    <img src="./styles/images/tacos.png" alt="Its Raining Tacos"></img>
+                <a href={p.href} target="_blank" rel="noreferrer">
+                    <img src="./styles/images/tacos.png" alt={p.pageName}></img>
                     </a>
-                    <figcaption>It's Raining Tacos</figcaption>
+                    <figcaption>{p.pageName}</figcaption>
             </figure>
+            ))}
         </div>
     );
   }

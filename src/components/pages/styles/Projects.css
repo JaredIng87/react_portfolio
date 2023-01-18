@@ -1,0 +1,33 @@
+.projects {
+    background: #c4c4c4;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .projects figure {
+    padding: 50px;
+  }
+
+.projects img {
+    content: url(./images/tacos.png);
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 1px solid black;
+    max-height: 150px; 
+    object-fit: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+
+  .projects img:hover {
+    box-shadow: 5px 5px 5px rgb(69, 69, 69);
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    filter: none;
+    -webkit-filter: grayscale(0)
+  }
