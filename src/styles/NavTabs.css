@@ -1,15 +1,28 @@
-.nav-tabs {
+.titleCard {
+  display: flex;
+    flex-wrap: wrap;
     background: #3a3a3a;
     width: auto; 
     height: auto; 
     margin: 0;
     padding: 0;
-  }
-  
+}
+
   .nav-tabs a {
-    color: white;
+    color: whitesmoke;
     font-size: 1.3rem;
     text-decoration: none;
     margin: 5px;
     line-height: 3;
+  }
+
+  .nav-tabs:hover a {
+    color: whitesmoke;
+  }
+
+  .titleCard h1 {
+    color: white;
+    text-align: center;
+   font-size: 4rem;
+   margin-left: 400px;
   }

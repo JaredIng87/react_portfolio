@@ -3,10 +3,10 @@
     height: 200px;
   }
   
-  .header h1 {
+  .header h2 {
     margin: 0;
     padding-top: 50px;
     text-align: center;
-    color: white;
-    font-size: 4rem;
+    color: whitesmoke;
+    font-size: 3.5rem;
   }

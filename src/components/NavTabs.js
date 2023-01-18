@@ -11,6 +11,7 @@ const pages = [
 function NavTabs({ currentPage, handlePageChange }) {
 
   return (
+    <div className='titleCard'>
     <ul className="nav nav-tabs">
     {pages.map(p => (
         <li className="nav-item">
@@ -25,6 +26,8 @@ function NavTabs({ currentPage, handlePageChange }) {
     ))
     }
     </ul>
+    <h1>Ingersoll</h1>
+    </div>
   );
 }
 

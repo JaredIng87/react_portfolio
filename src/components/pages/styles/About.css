@@ -1,0 +1,16 @@
+.about {
+    background: #c4c4c4;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .about img {
+    content: url(./images/self.jpg);
+    max-height: 115px;
+    clear: both;
+    margin: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgb(69, 69, 69);
+}
+
