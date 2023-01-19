@@ -4,7 +4,7 @@ import './styles/Resume.css';
 export default function Projects() {
     return (
         <div className='resume'>
-      <p>View my resume <a href="https://jareding87.github.io/personal-portfolio/">Here!</a> <br></br>
+      <p>Download my resume <a href="https://jareding87.github.io/personal-portfolio/">Here!</a> <br></br>
         <ul>Proficiencies:
             <li>HTML</li>
             <li>CSS</li>

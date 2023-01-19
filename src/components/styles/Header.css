@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+.header .nav-tabs {
+  border: #3a3a3a;
+}
+
   .nav-tabs a {
     color: whitesmoke;
     font-size: 1.3rem;
