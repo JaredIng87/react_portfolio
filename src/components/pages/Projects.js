@@ -23,9 +23,9 @@ export default function Projects() {
         <figure>
             
                 <a href={p.href}>
-                <div class="container">
-                <img  class="image" src={p.src} alt={p.pageName}></img>
-                    <div class="overlay">{p.pageName}<br></br>{p.repo}</div>
+                <div className="container">
+                <img  className="image" src={p.src} alt={p.pageName}></img>
+                    <div className="overlay">{p.pageName}<br></br>{p.repo}</div>
                     </div>
                     </a>
             </figure>
