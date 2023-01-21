@@ -1,4 +1,5 @@
 import React from 'react';
+import { Popover, Text } from "@nextui-org/react";
 import './styles/Projects.css';
 import NoteTaker from './styles/images/noteTaker.png';
 import TechBlog from './styles/images/techBlog.png';
@@ -8,12 +9,12 @@ import Tacos from './styles/images/tacos.png';
 import Coffee from './styles/images/coffee.png';
 
 const projects = [
-    {href: "https://salty-forest-89064.herokuapp.com/", pageName: "Note Taker", src: NoteTaker},
-    {href: "https://cryptic-basin-25762.herokuapp.com/", pageName: "Tech Blog", src: TechBlog},
-    {href: "https://jareding87.github.io/daily-planner/", pageName: "Daily Planner", src:DailyPlanner},
-    {href: "https://jareding87.github.io/personal-portfolio/", pageName: "HTML/CSS Portfolio", src: BasicPortfolio},
-    {href: "https://sminker0401.github.io/Its-Raining-Tacos/", pageName: "It's Raining Tacos - group project", src: Tacos},
-    {href: "https://coffee-cravers.herokuapp.com/", pageName: "Coffee Cravers - group project", src: Coffee}
+    {url: "https://salty-forest-89064.herokuapp.com/", pageName: "Note Taker", repo: "https://github.com/JaredIng87/note-taker", src: NoteTaker},
+    {url: "https://cryptic-basin-25762.herokuapp.com/", pageName: "Tech Blog", repo: "https://github.com/JaredIng87/tech_blog", src: TechBlog},
+    {url: "https://jareding87.github.io/daily-planner/", pageName: "Daily Planner", repo: "https://github.com/JaredIng87/daily-planner", src:DailyPlanner},
+    {url: "https://jareding87.github.io/personal-portfolio/", pageName: "HTML/CSS Portfolio", repo: "https://github.com/JaredIng87/personal-portfolio", src: BasicPortfolio},
+    {url: "https://sminker0401.github.io/Its-Raining-Tacos/", pageName: "It's Raining Tacos - group project", repo: "https://github.com/Sminker0401/Its-Raining-Tacos", src: Tacos},
+    {url: "https://coffee-cravers.herokuapp.com/", pageName: "Coffee Cravers - group project", repo: "https://github.com/marchocobar/Coffee-Shop", src: Coffee}
 ];
 
 export default function Projects() {
@@ -21,13 +22,17 @@ export default function Projects() {
         <div className='projects'>
             {projects.map(p => (
         <figure>
-            
-                <a href={p.href}>
+               <Popover offset= {-75}>
+      <Popover.Trigger>
                 <div className="container">
                 <img  className="image" src={p.src} alt={p.pageName}></img>
-                    <div className="overlay">{p.pageName}<br></br>{p.repo}</div>
+                    <div className="overlay">{p.pageName}</div>
                     </div>
-                    </a>
+                    </Popover.Trigger>
+      <Popover.Content>
+        <Text css={{ p: "$10" }}><a href={p.url} target="_blank" rel="noreferrer">{p.pageName}</a><br></br><a href={p.repo} target="_blank" rel="noreferrer">Github Repo</a></Text>
+      </Popover.Content>
+    </Popover>
             </figure>
             ))}
         </div>
