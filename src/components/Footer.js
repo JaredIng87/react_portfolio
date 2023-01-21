@@ -11,7 +11,10 @@ function Footer() {
       <SocialIcon className='social' url="https://github.com/JaredIng87"  bgColor="#3a3a3a"/>
       </div>
       <div className='social'>
-      <SocialIcon url="https://www.instagram.com/"  bgColor="#3a3a3a"/>
+      <SocialIcon url="https://www.linkedin.com/in/jared-ingersoll-ab9210263/"  bgColor="#3a3a3a"/>
+      </div>
+      <div className='social'>
+      <SocialIcon url="https://www.instagram.com/njswamphermit/"  bgColor="#3a3a3a"/>
       </div>
       <h4>This app was made with React.<br></br>2023</h4>
       </footer>
