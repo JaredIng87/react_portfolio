@@ -29,8 +29,11 @@ export default function Projects() {
                     <div className="overlay">{p.pageName}</div>
                     </div>
                     </Popover.Trigger>
-      <Popover.Content>
-        <Text css={{ p: "$10" }}><a href={p.url} target="_blank" rel="noreferrer">{p.pageName}</a><br></br><a href={p.repo} target="_blank" rel="noreferrer">Github Repo</a></Text>
+      <Popover.Content css={{ background: '$gray700', pl: '$20', pr: '$20'}}>
+        <Text css={{ p: "$10" }}><a href={p.url} target="_blank" rel="noreferrer" style={{color: "white"}}>{p.pageName}</a>
+        <br></br>
+        <br></br>
+        <a href={p.repo} target="_blank" rel="noreferrer" style={{color: "white"}}>Github Repo</a></Text>
       </Popover.Content>
     </Popover>
             </figure>
