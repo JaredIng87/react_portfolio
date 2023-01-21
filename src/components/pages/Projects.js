@@ -30,8 +30,9 @@ export default function Projects() {
                     </div>
                     </Popover.Trigger>
       <Popover.Content css={{ background: '#3a3a3a', pl: '$20', pr: '$20'}}>
-        <Text css={{ p: "$10" }}><a href={p.url} target="_blank" rel="noreferrer" style={{color: "white"}}>{p.pageName}</a>
+        <Text className='popoverText' css={{ p: "$10", color: "$white", textAlign: "$center" }}>{p.pageName}
         <br></br>
+        <a href={p.url} target="_blank" rel="noreferrer" style={{color: "white"}}>Visit Here!</a>
         <br></br>
         <a href={p.repo} target="_blank" rel="noreferrer" style={{color: "white"}}>Github Repo</a></Text>
       </Popover.Content>
