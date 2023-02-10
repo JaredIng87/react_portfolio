@@ -11,10 +11,10 @@
 
   .about img {
     content: url(./images/self.jpg);
-    max-height: 140px;
+    max-height: 180px;
     clear: both;
     margin-bottom: 30px;
     margin-top: 15px;
-    border-radius: 40%;
+    border-radius: 100%;
 }
 
