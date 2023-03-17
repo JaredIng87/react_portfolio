@@ -6,12 +6,19 @@ export default function Projects() {
         <div className='resume'>
       <p>Download my resume <a href="https://jareding87.github.io/personal-portfolio/" target="_blank" rel="noreferrer">Here!</a> <br></br>
         <ul>Proficiencies:
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>Visual Studio Code</li>
+            <li>Git/GitHub</li>
+            <li>GitHub Pages</li>
+            <li>Heroku</li>
             <li>Javascript</li>
-            <li>Node</li>
-            <li>Express</li>
-            <li>SQL</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MySQL</li>
+            <li>GraphQL</li>
+            <li>CSS</li>
+            <li>Sequelize</li>
+            <li>Handlebars.js</li>
+            <li>Insomnia</li>
             <li>MongoDB</li>
             <li>React</li>
             </ul></p>

@@ -10,7 +10,7 @@
   }
 
   .about img {
-    content: url(./images/self.jpg);
+    content: url(./images/me.jpg);
     max-height: 180px;
     clear: both;
     margin-bottom: 30px;
